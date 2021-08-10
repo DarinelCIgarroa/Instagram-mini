@@ -1,0 +1,528 @@
+
+/* Inicio */
+form .avatar {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+nav .container-avatar, .public-image .container-avatar {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 900px;
+    margin-left: 25px;
+}
+
+nav .container-avatar img, .public-image .container-avatar img {
+    height: 100%;
+}
+
+.public-image {
+    margin-bottom: 35px;
+}
+
+
+.public-image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.public-image .data-user {
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.likes .comment-like {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+
+.comment-like .comment-icon {
+    padding-left: 15px;
+}
+
+.comment-like .comment-icon img {
+    margin: 9px 0px;
+    height: 25px;
+    width: 25px;
+}
+
+.public-image .card-body {
+    padding: 0px;
+}
+
+.public-image .card-header {
+    height: 60px;
+}
+
+.public-image .flex-contenedor {
+    display: flex;
+}
+
+span.comments-publication {
+    color: grey;
+}
+
+.public-image .flex-contenedor .comments {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.public-image .data-user a {
+    color: black;
+}
+
+/* DESCRIPCION */
+
+.public-image .description, .public-image .comments, .data .image-comments .content-comment span.nickname {
+    font-weight: bold;
+}
+
+.public-image .description span.description-image {
+    color: 191919;
+}
+
+.public-image .description {
+    padding: 5px 0px 0px 20px;
+    padding-bottom: 0px;
+}
+
+/* COMENTARIOS */
+
+.public-image .comments {
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+.public-image .comments a.count-comments {
+    /* color: dimgray; */
+    text-decoration: none;
+}
+
+.public-image .comments p {
+    margin: 0px;
+}
+
+/* FECHA */
+
+.public-image .date {
+    padding: 5px 0px 0px 20px;
+    margin-bottom: 10px;
+}
+
+/* LIKES */
+
+.public-image .likes {
+    display: flex;
+    flex-direction: column;
+}
+
+.public-image .likes .likes-heart {
+    margin: 0px 0px 0px 20px;
+}
+
+.public-image .likes .likes-heart img {
+    margin: 9px 0px;
+    height: 25px;
+    width: 25px;
+}
+
+.public-image .likes .likes-people {
+    width: 60%;
+    margin: 3px 0px 0px 20px;
+}
+
+.public-image .likes .likes-people .profile-likes img {
+    height: 25px;
+    width: 25px;
+    border-radius: 900px;
+    border: 1.5px solid rgb(19, 19, 19);
+}
+
+/* DETALLLE IMAGEN - COMENTARIOS */
+
+.contenedor-2 {
+    height: auto;
+    width: 100%;
+    min-width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: rgba(128, 128, 128, 0.678) solid 1px;
+    justify-content: center;
+}
+
+.content-image {
+    height: auto;
+    width: 60%;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.contenedor-2 .data {
+    height: 100%;
+    width: 40%;
+    min-width: 215px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor-2 .data .user-info {
+    width: 100%;
+    min-height: 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user-info .image-profile {
+    border-bottom: rgba(128, 128, 128, 0.678) solid 0.5px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-comment .contenedor-perfiles img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.content-comment .no-comment p {
+    text-align: center;
+    color: rgba(169, 169, 169, 0.527);
+}
+
+.user-info .image-profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user-info .info {
+    height: 100%;
+    width: 80%;
+    border-bottom: rgba(128, 128, 128, 0.678) solid 0.5px;
+}
+
+.user-info .info p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.user-info .info span {
+    font-size: 14px;
+}
+
+.contenedor-2 .data .image-comments {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-comments .content-comment {
+    width: 100%;
+    height: auto;
+    margin: 0px 13px;
+    /* border: rgb(22, 112, 230) solid 1px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-comment .comentario-general {
+    /* background: maroon; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.comentario-general .contenedor-comentarios {
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.comentario-general .contenedor-comentarios span {
+    text-align: center;
+    padding-left: 2px;
+}
+
+.comentario-general .contenedor-comentarios p {
+    color: slategray;
+}
+
+.data .image-comments::-webkit-scrollbar {
+    /* width: 8px;     Tamaño del scroll en vertical */
+    /* height: 8px;    Tamaño del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}
+
+.data .image-likes {
+    min-height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.image-likes .image-heart {
+    height: 100%;
+    width: 25%;
+}
+
+.image-likes .image-comment {
+    height: 100%;
+    width: 25%;
+}
+
+.image-likes .image-heart img {
+    width: 25px;
+    height: 25px;
+}
+
+.image-likes .image-comment img {
+    width: 25px;
+    height: 25px;
+    -moz-transform: scaleX(-1);
+    /* Firefox */
+    -o-transform: scaleX(-1);
+    /* Opera */
+    -webkit-transform: scaleX(-1);
+    /* Chrome y Safari */
+    transform: scaleX(-1);
+    /* w3org */
+    filter: FlipH;
+    /* Internet Explorer */
+}
+
+.image-likes .image-comment img:hover {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+.contenedor-2 .data .comment {
+    min-height: 10%;
+    width: 100%;
+}
+
+.data .comment textarea {
+    height: 55px;
+}
+
+.data .comment form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-center;
+    align-content: center;
+}
+
+/* PERFIL DEL USUARIO */
+
+.profile-information {
+    width: 100%;
+    /* height: 100%; */
+    /* border: brown solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 1px solid rgb(173, 171, 171);
+}
+
+.profile-information .content-information {
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-information .img-profile {
+    height: 100%;
+    min-width: 20%;
+    /* border: rgb(255, 251, 0) solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-information .img-profile img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.profile-information .general-data {
+    height: 100%;
+    width: 60%;
+    min-width: 30%;
+    /* background: rgb(14, 70, 155); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.general-data .name {
+    font-size: 30px;
+    min-width: 100%;
+    padding-bottom: 10px;
+}
+
+.general-data .publication {
+    min-width: 100%;
+    padding-bottom: 10px;
+}
+
+.publication span {
+    font-size: 18px;
+}
+
+.general-data .profile-data {
+    min-width: 100%;
+    padding-bottom: 10px;
+}
+
+.profile-data p.nick {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-data p.date {
+    color: grey;
+}
+
+.publication span.count {
+    font-weight: bold;
+}
+
+.content-galery {
+    /* border:1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-galery .card {
+    /* margin: 20px; */
+    margin-bottom: 40px;
+    width: 18rem;
+    height: auto;
+}
+
+.content-galery .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-galery .card .card-body {
+    padding: 5px 20px;
+}
+
+.content-galery .card .card-body .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    /* border: 0px; */
+}
+
+.content-galery .card .card-body img {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-body .content-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+i.spinner {
+    display: none;
+}
+
+.container-fluid form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+}
+
+input.form-control.me-2 {
+    margin: 0px 5px;
+}
+
+.avatar-data img{
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.data-people{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .data-people .content-profile{
+     width: 48%;
+     margin-left: 20px;
+     border: black solid 1px;
+ }
+
+
+@media (min-width: 768px) and (max-width: 1240px) {
+    .image-comments .content-comment{
+        min-height: 420px;
+        
+    }
+    .content-comment .no-comment{
+        min-height: 420px;
+    }
+}
